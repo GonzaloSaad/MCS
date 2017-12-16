@@ -1,0 +1,21 @@
+
+
+Analyzer:
+
+    1)  En esta version del Analyzer, no se hace el analisis lexico en el FunctionParer, sino que lo hara EntryParser,
+        previo a la separacion de terminos.
+
+----------------------------------------------------------------------------------------------------------------------
+
+Lexer:
+
+    1)  En esta version del Analyzer, el analizador lexico no levantara excepcion, sino que devolvera 'None' si reconoce
+        los lexemas, o devolvera el caracter que no reconocio.
+
+----------------------------------------------------------------------------------------------------------------------
+
+FunctionParser
+
+    1)  No se realizara el analisis lexico.
+    2)  Funcionara unicamente para una variable.
+
